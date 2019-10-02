@@ -1,0 +1,19 @@
+{
+    "name": "root/amazon",
+    "type": "project",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Amazon\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amazon\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
